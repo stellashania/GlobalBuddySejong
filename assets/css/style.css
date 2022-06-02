@@ -1,0 +1,169 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.card{
+    border: none;
+}
+
+/*=============================== FONT SIZE ===============================*/
+.smaller-font{
+    font-size: smaller;
+}
+
+.xsmall-font{
+    font-size: x-small;
+}
+
+.small-font{
+    font-size: small;
+}
+
+.medium-font{
+    font-size: medium;
+}
+
+/*=============================== BUTTONS ===============================*/
+.btn-red{
+    background-color: #c2122c;
+    border: none;
+    border-radius: 10px; 
+    /* font-size: 75%;  */
+    box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.16);
+}
+
+.btn-red:hover{
+    background-color: #a01026;
+}
+
+.btn-blue{
+    background-color: #2f4c61;
+    border: none;
+    border-radius: 5px; 
+    /* font-size: 75%;  */
+    box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.16);
+}
+
+.btn-blue:hover{
+    background-color: #203341;
+}
+
+.btn-yellow{
+    color: black;
+    background-color: #ffb910;
+    border: none;
+    border-radius: 5px; 
+    /* font-size: 75%;  */
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.108);
+}
+
+.btn-yellow:hover{
+    background-color: #d0960f;
+}
+
+
+/*=============================== BANNER ===============================*/
+.banner{
+    height: 450px;
+    width: 100%;
+    object-position: center 0px;
+    object-fit: cover;
+    opacity: .8;
+    border-radius: 25px;
+}
+
+.banner_text{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 10%;
+}
+
+/*=============================== ABOUT ===============================*/
+.about_img{
+    border: 1px solid rgba(169, 169, 169, 0.209);
+    background-color: white;
+    padding: 15px 15px 60px 15px;
+    box-shadow: 5px 10px 10px darkgrey;
+}
+
+#about_img1{
+    left: 100px;
+    top: 100px;
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+}
+
+#about_img2{
+    left: 100px;
+    top: 100px;
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+}
+
+/*=============================== TESTIMONY ===============================*/
+.testi_card,
+.event_card{
+    border-radius: 5%;
+    box-shadow: 0 13px 15px 0 rgba(0, 0, 0, 0.113);
+}
+
+.testi_card_img,
+.event_card_img{
+    border-radius: 5% 5% 0 0;
+    object-fit: contain;
+}
+
+/*=============================== FOOTER =============================== */
+.footer1{
+    background-color: #2f4c61;;
+}
+
+.footer2{
+    background-color: #203341;
+}
+
+/*=============================== EVENT PAGE ===============================*/
+.event_wide_card{
+    border-radius: 2%;
+    box-shadow: 0 13px 15px 0 rgba(0, 0, 0, 0.113);
+}
+.event_wide_img{
+    height: 300px; 
+    border-radius: 2% 2% 0 0;
+    object-fit: cover;
+}
+
+#event_wide1{
+    object-position: top center;
+}
+
+
+/*=============================== EVENT DETAIL PAGE ===============================*/
+.event-detail-card{
+    border-radius: 15px;
+    box-shadow: 0 13px 15px 0 rgba(0, 0, 0, 0.113);
+    padding: 2rem;
+    border: 1px solid rgba(232, 230, 230, 0.637);
+}
+
+.event-detail-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.event-detail-info{
+    color: #c2122c;
+}
