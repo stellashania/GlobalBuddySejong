@@ -79,7 +79,7 @@ include('config/constants.php');
                             <div class="card-body p-sm-5 text-black">
                                 <h3 class="mb-3 text-uppercase blue-text fw-bold">Login</h3>
 
-                                <form action="#">
+                                <form action="login-process.php" method="POST">
                                     <!-- Email -->
                                     <div class="form-outline mb-3">
                                         <label class="form-label" for="email">Email address</label>
@@ -89,7 +89,7 @@ include('config/constants.php');
                                     <!-- Password -->
                                     <div class="form-outline mb-3">
                                         <label class="form-label" for="password">Password</label>
-                                        <input type="text" id="password" name="password" class="form-control" required>
+                                        <input type="password" id="password" name="password" class="form-control" required>
                                     </div>
 
                                     <!-- Submit -->
