@@ -1,3 +1,7 @@
+<?php
+include('config/constants.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -75,7 +79,7 @@
                             <div class="card-body p-sm-5 text-black">
                                 <h3 class="mb-3 text-uppercase blue-text fw-bold">Global Buddy Member Registration</h3>
 
-                                <form action="#">
+                                <form action="register-process.php" method="POST">
                                     <!-- Name -->
                                     <div class="form-outline mb-3">
                                         <label class="form-label" for="name">Name</label>
@@ -85,7 +89,7 @@
                                     <!-- Password -->
                                     <div class="form-outline mb-3">
                                         <label class="form-label" for="password">Password</label>
-                                        <input type="text" id="password" name="password" class="form-control" required>
+                                        <input type="password" id="password" name="password" class="form-control" required>
                                     </div>
 
                                     <!-- Gender -->
@@ -136,7 +140,7 @@
                                     </div>
 
                                     <!-- Submit -->
-                                    <button type="submit" class="btn btn-block btn-yellow mb-4 mt-3">Register</button>
+                                    <button type="submit" name="submit" class="btn btn-block btn-yellow mb-4 mt-3">Register</button>
                                 </form>
                             </div>
                         </div>

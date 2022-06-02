@@ -1,3 +1,7 @@
+<?php
+include('config/constants.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,7 +93,7 @@
                                     </div>
 
                                     <!-- Submit -->
-                                    <button type="submit" class="btn btn-block btn-yellow mb-4 mt-3">Login</button>
+                                    <button type="submit" name="submit" class="btn btn-block btn-yellow mb-4 mt-3">Login</button>
                                 </form>
                             </div>
                         </div>
