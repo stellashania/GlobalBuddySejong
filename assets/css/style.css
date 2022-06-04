@@ -164,10 +164,7 @@ html{
     height: 300px; 
     border-radius: 2% 2% 0 0;
     object-fit: cover;
-}
-
-#event_wide1{
-    object-position: top center;
+    object-position: center center;
 }
 
 
@@ -186,4 +183,12 @@ html{
 
 .event-detail-info{
     color: #c2122c;
+}
+
+.popup{
+    display: none;
+}
+
+.mt-6{
+    margin-top: 6rem;
 }

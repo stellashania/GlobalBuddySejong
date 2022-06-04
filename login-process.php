@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
 
         //redirect to home page/dashboard
         echo '<script>alert("Login successful!")</script>';
-        echo '<script>window.location="index.html"</script>';
+        echo '<script>window.location="index.php"</script>';
     } else {
         //user not available and login fail
         echo '<script>alert("Login failed, please try again!")</script>';
