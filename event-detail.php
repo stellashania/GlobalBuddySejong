@@ -39,9 +39,9 @@ if (isset($_GET['event_id'])) {
 ?>
 
 <!-- UPCOMING EVENTS -->
-<section class="container mt-5 pt-5 px-5">
-    <div class="event-detail px-5">
-        <div class="card event-detail-card mt-5">
+<section class="container mt-5 pt-5 event-detail-container">
+    <div class="event-detail">
+        <div class="card event-detail-card">
             <div class="row">
                 <div class="col-sm-6">
                     <img src="assets/img/events/event<?php echo $event_id ?>.jpg" alt="" class="event-detail-img">
@@ -67,7 +67,7 @@ if (isset($_GET['event_id'])) {
                 </div>
 
                 <div class="col-sm-6">
-                    <h2 class="fs-3 mb-4">Register</h2>
+                    <h2 class="fs-3 mb-4 event-regist-title">Register</h2>
                     <form action="event-registration-process.php" method="POST">
                         <!-- Hidden input: User ID and Event ID -->
                         <input type="hidden" id="user_id" class="user_id" name="user_id" value="<?php echo $user_id; ?>">

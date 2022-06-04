@@ -3,10 +3,10 @@ include('layouts/header.php');
 ?>
 
 <!-- UPCOMING EVENTS -->
-<section class="container mt-6 px-5">
+<section class="container mt-6">
   <h1 class="fw-bolder fs-3 text-center mt-5 pt-5">Our Upcoming Events</h1>
 
-  <div class="events mt-4 px-5 mx-5">
+  <div class="events mt-4">
     <?php
     $sql = "SELECT * FROM events";
     $res = mysqli_query($conn, $sql);
@@ -30,7 +30,7 @@ include('layouts/header.php');
 
                   <h6 class="card-subtitle smaller-font"><?php echo $event_type ?></h6>
 
-                  <p class="card-text small-font mt-3">
+                  <p class="card-text mt-3 event_page_desc">
                     <?php echo $event_description ?>
                   </p>
                 </div>

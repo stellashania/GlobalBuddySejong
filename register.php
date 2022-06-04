@@ -1,5 +1,5 @@
 <?php
-include('layouts/header.php');
+include('layouts/header2.php');
 ?>
 
 <!-- REGISTER FORM -->

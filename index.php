@@ -13,20 +13,20 @@ include('layouts/header.php');
       <span style="color: #ffb910;">Buddy!</span>
     </h1>
 
-    <p class="mt-2 fw-bold" style="text-shadow: 5px 5px 10px #49444453;">
+    <p class="mt-2 fw- banner-desc" style="text-shadow: 5px 5px 10px #49444453;">
       Fostering meaningful friendships to facilitate a smooth transition into Korean culture and college life.
     </p>
 
     <a href="https://www.youtube.com/channel/UCPuCHxTjy668y5NHXVR2p4Q" class="text-decoration-none text-light">
-      <button type="button" class="btn mt-2 btn-m text-light btn-red"><i class="uil uil-youtube"></i> View Our Youtube</button>
+      <button type="button" class="btn mt-2 btn-m text-light btn-red btn-banner"><i class="uil uil-youtube"></i> View Our Youtube</button>
     </a>
   </div>
 </section>
 
 
 <!-- WHO WE ARE (about global buddy) -->
-<section class="container mt-5 px-5">
-  <h1 class="fw-bolder fs-3 text-center">Who We Are</h1>
+<section class="container mt-5 about-container">
+  <h1 class="fw-bolder fs-3 text-center about-title">Who We Are</h1>
 
   <div class="about_content mt-5">
     <!-- first row -->
@@ -57,13 +57,13 @@ include('layouts/header.php');
 
 
 <!-- WHAT STUDENTS SAY (TESTIMONY) -->
-<section class="container mt-5 px-5">
-  <h1 class="fw-bolder fs-3 mt-5 pt-5 text-center">What Students Say</h1>
+<section class="container mt-5 px-5 testi_container">
+  <h1 class="fw-bolder fs-3 text-center testimony_title">What Students Say</h1>
 
   <div class="testi_content mt-5">
     <div class="row">
       <!--testimony 1-->
-      <div class="col-sm-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 testi_card_container">
         <div class="card testi_card">
           <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
             <img src="assets/img/testimony/testi1.jpg" class="img-fluid testi_card_img" />
@@ -83,7 +83,7 @@ include('layouts/header.php');
       </div>
 
       <!-- testimony 2 -->
-      <div class="col-sm-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 testi_card_container">
         <div class="card testi_card">
           <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
             <img src="assets/img/testimony/testi2.jpg" class="img-fluid testi_card_img" />
@@ -103,7 +103,7 @@ include('layouts/header.php');
       </div>
 
       <!-- testimony 3 -->
-      <div class="col-sm-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 testi_card_container">
         <div class="card testi_card">
           <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
             <img src="assets/img/testimony/testi3.jpg" class="img-fluid testi_card_img" />
@@ -123,7 +123,7 @@ include('layouts/header.php');
       </div>
 
       <!-- testimony 4 -->
-      <div class="col-sm-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 testi_card_container">
         <div class="card testi_card">
           <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
             <img src="assets/img/testimony/testi4.jpg" class="img-fluid testi_card_img" />
@@ -147,10 +147,10 @@ include('layouts/header.php');
 
 
 <!-- UPCOMING EVENTS -->
-<section class="container mt-5 pt-5 px-5 pb-5">
+<section class="container mt-5 px-5 pb-5 events_container">
   <h1 class="fw-bolder fs-3 text-center">Our Upcoming Events</h1>
 
-  <div class="events mt-5">
+  <div class="events_section mt-5">
     <div class="row">
 
       <?php
@@ -167,7 +167,7 @@ include('layouts/header.php');
 
       ?>
 
-          <div class="col-sm-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 event_card_container">
             <a href="event-detail.php?event_id=<?php echo $event_id; ?>" class="text-decoration-none text-dark">
               <div class="card event_card">
                 <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">

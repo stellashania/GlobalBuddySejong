@@ -16,6 +16,10 @@ html{
     border: none;
 }
 
+.mt-6{
+    margin-top: 6rem;
+}
+
 /*=============================== FONT SIZE ===============================*/
 .smaller-font{
     font-size: smaller;
@@ -110,6 +114,11 @@ html{
 }
 
 /*=============================== ABOUT ===============================*/
+.about-container{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
 .about_img{
     border: 1px solid rgba(169, 169, 169, 0.209);
     background-color: white;
@@ -133,7 +142,7 @@ html{
     -webkit-transform: rotate(5deg);
 }
 
-/*=============================== TESTIMONY ===============================*/
+/*=============================== TESTIMONY & EVENT ===============================*/
 .testi_card,
 .event_card{
     border-radius: 5%;
@@ -144,6 +153,15 @@ html{
 .event_card_img{
     border-radius: 5% 5% 0 0;
     object-fit: contain;
+}
+
+.testimony_title{
+    padding-top: 3rem;
+    margin-top: 3rem;
+}
+
+.events_container{
+    padding-top: 3rem;
 }
 
 /*=============================== FOOTER =============================== */
@@ -167,14 +185,25 @@ html{
     object-position: center center;
 }
 
+.event_page_desc{
+    font-size: small;
+}
+
 
 /*=============================== EVENT DETAIL PAGE ===============================*/
 .event-detail-card{
+    margin-top: 3rem;
     border-radius: 15px;
     box-shadow: 0 13px 15px 0 rgba(0, 0, 0, 0.113);
     padding: 2rem;
     border: 1px solid rgba(232, 230, 230, 0.637);
 }
+
+/* .event-detail-container,
+.event-detail{
+    padding-left: 3rem;
+    padding-right: 3rem;
+} */
 
 .event-detail-img{
     width: 100%;
@@ -189,6 +218,199 @@ html{
     display: none;
 }
 
-.mt-6{
-    margin-top: 6rem;
+
+/* SMALL DEVICES */
+@media screen and (max-width: 350px){
+
+    /* INDEX PAGE */
+    .banner{
+        height: 250px;
+    }
+
+    .banner-desc{
+        font-size: small;
+        margin-bottom: 0;
+    }
+
+    .btn-banner{
+        font-size: x-small;
+    }
+
+    .about_img{
+        border: 1px solid rgba(169, 169, 169, 0.209);
+        background-color: white;
+        padding: 15px 15px 30px 15px;
+        box-shadow: 5px 10px 10px darkgrey;
+    }
+
+    .about-title{
+        margin-bottom: -1rem;
+    }
+
+    .about_img{
+        margin-bottom: 2rem;
+        /* margin-top: 2rem; */
+    }
+
+    .about-container{
+        padding-left: 1rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .about-content{
+        font-size: xx-small;
+    }
+
+    #about_img2{
+        margin-top: 2rem;
+    }
+
+    .testimony_title{
+        padding-top: 0;
+        margin-top: 2rem;
+    }
+
+    .testi_container{
+        padding-top: 0;
+        margin-top: 1rem;
+    }
+
+    .testi_card_container,
+    .event_card_container{
+        margin-bottom: 2rem;
+    }
+
+    .events_container{
+        padding-top: 1rem;
+    }
+
+    /* EVENTS PAGE */
+    .events{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .event_wide_card{
+        height: 350px;
+    }
+
+    .event_page_desc{
+        font-size: x-small;
+    }
+
+    /* EVENT DETAIL */
+    .event-detail-container,
+    .event-detail{
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+    .event-detail{
+        display: flex;
+        justify-content: center;
+    }
+
+    .event-detail-card{
+        width: 90%;
+        margin-top: 0;
+    }
+
+    .event-regist-title{
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 351px){
+    /* INDEX PAGE */
+    .banner{
+        height: 250px;
+    }
+
+    .banner-desc{
+        font-size: small;
+        margin-bottom: 0;
+    }
+
+    .btn-banner{
+        font-size: x-small;
+    }
+
+    .about_img{
+        border: 1px solid rgba(169, 169, 169, 0.209);
+        background-color: white;
+        padding: 15px 15px 30px 15px;
+        box-shadow: 5px 10px 10px darkgrey;
+    }
+
+    .about-title{
+        margin-bottom: -1rem;
+    }
+
+    .about_img{
+        margin-bottom: 2rem;
+        /* margin-top: 2rem; */
+    }
+
+    .about-container{
+        padding-left: 1rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .about-content{
+        font-size: xx-small;
+    }
+
+    #about_img2{
+        margin-top: 2rem;
+    }
+
+    .testimony_title{
+        padding-top: 0;
+        margin-top: 2rem;
+    }
+
+    .testi_container{
+        padding-top: 0;
+        margin-top: 1rem;
+    }
+
+    .testi_card_container,
+    .event_card_container{
+        margin-bottom: 2rem;
+    }
+
+    .events_container{
+        padding-top: 1rem;
+    }
+
+    /* EVENTS */
+    .events{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* EVENT DETAIL */
+    .event-detail-card{
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    
+}
+
+@media screen and (min-width: 767px){
+    /* .test-card{
+        width: 50%;
+    } */
+}
+
+@media screen and (min-width: 1024px){
+
 }
