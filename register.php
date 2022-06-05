@@ -4,15 +4,15 @@ include('layouts/header2.php');
 
 <!-- REGISTER FORM -->
 <section class="container mt-5 pt-5">
-    <div class="row d-flex justify-content-center align-items-center h-100 pt-3 mx-5 px-5">
+    <div class="row d-flex justify-content-center align-items-center h-100 pt-3 mx-2">
         <div class="col">
             <div class="card card-registration my-4">
                 <div class="row g-0">
-                    <div class="col-sm-6 d-none d-sm-block">
+                    <div class="d-none d-lg-block col-lg-6">
                         <img src="assets/img/events/palace4.jpg" alt="Sample photo" class="img-fluid w-100 login-form-img">
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
                         <div class="card-body p-sm-5 text-black">
                             <h3 class="mb-3 text-uppercase blue-text fw-bold">Global Buddy Member Registration</h3>
 

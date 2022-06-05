@@ -44,12 +44,26 @@ include('login-check.php');
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <?php
+                    if (isset($_SESSION['user_email'])) {
+                    ?>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.php" style="text-shadow: 5px 5px 10px #49444453;">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.php" style="text-shadow: 5px 5px 10px #49444453;">Events</a>
+                        </li>
+                    <?php
+                    }
+                    ?>
+
+                    <!-- <li class="nav-item active">
                         <a class="nav-link" href="index.php" style="text-shadow: 5px 5px 10px #49444453;">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="events.php" style="text-shadow: 5px 5px 10px #49444453;">Events</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Account
