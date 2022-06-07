@@ -37,7 +37,8 @@ to access the website, view events, and register for events.
 ![3(1)](https://user-images.githubusercontent.com/79920236/172042343-0d8aa60e-31b6-441f-ac7d-e65b3086ab6f.png)
 
 - Events Page
-![8(1)](https://user-images.githubusercontent.com/79920236/172042349-32b5a3f9-4968-4784-8e6d-55d620e5b6b6.png)
+![8](https://user-images.githubusercontent.com/79920236/172270970-dbffbfde-ad75-4102-b466-bafeb4479590.png)
+![9](https://user-images.githubusercontent.com/79920236/172270974-44894e93-5851-48d8-ab86-86bc2d486fe2.png)
 
 - Events Detail Page
 ![10(1)](https://user-images.githubusercontent.com/79920236/172042350-f2ab4a54-a5b9-4d8c-8888-ec6e42cbdf3d.png)
